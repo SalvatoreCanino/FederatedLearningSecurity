@@ -13,6 +13,33 @@ The project leverages the **Flower (FL)** framework to manage the federated lear
 
 ---
 
+## Global Structure 
+```
+Project:.
++---dati
++---ENVIRONMENT
++---garden
+¦   +---garden
+¦   ¦   +---client_app.py
+¦   ¦   +---free_rider_detection_strategy.py
+¦   ¦   +---mega_defence_strategy.py
+¦   ¦   +---property_inference_strategy.py
+¦   ¦   +---server_app.py
+¦   ¦   +---task.py
+¦   ¦   +---trust_strategy.py
+¦   ¦   +---varG.py
+¦   +---analysis.py
+¦   +---final.py
+¦   +---generate_shadow_models.py
+¦   +---plot.py
+¦   +---train_meta_classifier.py
++---risultati
+¦   +---grezzi
+
+```
+
+---
+
 ## Project Structure
 
 - **client_app.py:** Implementation of the federated client, local training management, and integration of defense strategies.  
@@ -75,6 +102,8 @@ Possible values for the `case` parameter include:
 - **train_meta_classifier.py**: Trains a meta-classifier to predict label distributions based on model weights extracted from shadow models.
 
 - **analysis.py**: Applies the meta-classifier to predict label distributions for each client based on the extracted weight statistics and saves the results in JSON and CSV formats.
+
+---
 
 ## Author  
 
