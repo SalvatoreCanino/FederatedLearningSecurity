@@ -41,10 +41,9 @@ The project leverages the **Flower (FL)** framework to manage the federated lear
    ```
 
 2. Install the required dependencies:  
-   ```
+   
    https://www.youtube.com/watch?v=cRebUIGB5RU&list=PLNG4feLHqCWlnj8a_E1A_n5zr2-8pafTB&ab_channel=Flower
    Follow this guide; I strongly recommend watching the entire playlist.
-   ```
 
 3. Run the project
    ```
@@ -64,6 +63,18 @@ Possible values for the `case` parameter include:
 - `_DIF`: Final Defense (advanced strategy)  
 
 ---
+
+## Other Scripts
+
+- **final.py**: Aggregates evaluation metrics from multiple clients and compiles them into a single Excel file, including calculated averages for loss, accuracy, and F1 scores.
+
+- **plot.py**: Generates plots of average metrics (loss, accuracy, F1 score) across server rounds and comparison bar plots for defense strategies.
+
+- **generate_shadow_models.py**: Creates synthetic shadow datasets and trains shadow models to simulate various label distributions and client behaviors.
+
+- **train_meta_classifier.py**: Trains a meta-classifier to predict label distributions based on model weights extracted from shadow models.
+
+- **analysis.py**: Applies the meta-classifier to predict label distributions for each client based on the extracted weight statistics and saves the results in JSON and CSV formats.
 
 ## Author  
 
