@@ -68,9 +68,9 @@ Project:.
    ```
 
 2. Install the required dependencies:  
-   
-   https://www.youtube.com/watch?v=cRebUIGB5RU&list=PLNG4feLHqCWlnj8a_E1A_n5zr2-8pafTB&ab_channel=Flower
    Follow this guide; I strongly recommend watching the entire playlist.
+   https://www.youtube.com/watch?v=cRebUIGB5RU&list=PLNG4feLHqCWlnj8a_E1A_n5zr2-8pafTB&ab_channel=Flower
+   
 
 4. Run the project
    ```
